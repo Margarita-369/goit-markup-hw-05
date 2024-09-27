@@ -1,0 +1,10 @@
+{
+  "emmet.showSuggestionsAsSnippets": true,
+  "workbench.editor.defaultBinaryEditor": "default",
+  "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
+  "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.panel.defaultLocation": "left",
+  "workbench.panel.opensMaximized": "always"
+}
