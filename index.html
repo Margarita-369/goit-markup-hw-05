@@ -439,7 +439,20 @@
       </div>
       <div class="subscribe-footer">
          <p class="footer-article">Subscribe</p>
-      <button>Subscrib</button>
+         <form class="footer-form" name="email-footer" autocomplete="off">
+          <label for="footer-input">
+            <input 
+          class="input-type-email"
+          type="text"
+          name="footer-input"
+          id="footer-input"
+          placeholder="E-mail"
+          required
+          autofocus/>
+          <button>Subscribe</button>
+          </label>
+         </form>
+      
       </div>
       </div>
     </footer>
@@ -488,7 +501,7 @@
           </div> 
           </div> 
           <div class="form-section">
-      <label class="form-label" for="user-email">Phone</label>
+      <label class="form-label" for="user-email">Email</label>
      <div class="input-section-container">
            <input 
            class="form-input"
@@ -510,9 +523,18 @@
            id="textarea-place" 
            placeholder="Text input"></textarea>
           </div>
-          <div>
-            <input type="text">
+          <div class="checkbox-container">
+            <input
+             class="checkbox-input" 
+             type="checkbox"
+             id="check-input"
+             name="check-input"
+             checked/>
+          <label class="check-content" for="checkbox"><span></span>I accept the terms and conditions of the
+            <a class="accept-prviacy" href="">PrivacyPolicy</a>
+            </label>
           </div>
+          <button class="modal-button" type="button" data-modal-open>Send</button>
         </form>
       </div>
    </div>
