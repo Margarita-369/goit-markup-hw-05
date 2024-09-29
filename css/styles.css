@@ -448,7 +448,6 @@ article {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-bottom: 16px;
 }
 
 .icons-list {
@@ -684,10 +683,6 @@ backdrop:not(.is-open) .modal {
   color: rgba(46, 47, 66, 0.4);
   resize: none;
   margin-bottom: 8px;
-}
-
-::placeholder {
-  color: rgba(46, 47, 66, 0.4);
 }
 
 .checkbox-container {
