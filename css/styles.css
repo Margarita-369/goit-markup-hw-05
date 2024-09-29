@@ -504,7 +504,7 @@ article {
   height: 40px;
   background-color: transparent;
   color: #fff;
-  font-size: 12pt;
+  font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
@@ -517,7 +517,7 @@ article {
   justify-content: center;
   flex-direction: row;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   font-weight: 500;
 }
@@ -543,7 +543,7 @@ article {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -579,16 +579,22 @@ article {
   width: 24px;
   height: 24px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
   background-color: #e7e9fc;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0;
 }
 
 .icon-close {
   fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
+  border: none;
   fill: #fff;
 }
 
@@ -629,6 +635,7 @@ backdrop:not(.is-open) .modal {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  line-height: 1.17;
 }
 
 .input-section-container {
@@ -662,13 +669,17 @@ backdrop:not(.is-open) .modal {
   fill: #4d5ae5;
 }
 
+.textarea-container {
+  margin-bottom: 16px;
+}
+
 .textarea-box {
   padding: 8px 16px;
   height: 120px;
   width: 100%;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   resize: none;
