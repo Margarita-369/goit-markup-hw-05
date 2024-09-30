@@ -491,8 +491,6 @@ article {
 
 .subscribe-footer {
   margin-left: auto;
-  display: block;
-  margin-top: 100px;
 }
 
 .input-type-email {
@@ -682,7 +680,6 @@ backdrop:not(.is-open) .modal {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   resize: none;
-  margin-bottom: 8px;
 }
 
 .checkbox-container {
@@ -724,13 +721,6 @@ backdrop:not(.is-open) .modal {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
-}
-
-.modal-button-send {
-  position: absolute;
-  margin-bottom: 14px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .modal-button:hover,
